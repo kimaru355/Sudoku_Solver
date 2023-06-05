@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 
-# get_test - sudoku for dev purposes
-# Return: return the sudoku
-
-
-def get_test():
+def get_sudoku():
     sudoku = [[0, 7, 0, 0, 0, 1, 0, 0, 0],
               [0, 0, 0, 9, 0, 0, 0, 7, 6],
               [6, 0, 3, 0, 0, 0, 9, 5, 0],

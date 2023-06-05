@@ -307,6 +307,7 @@ class Runner(Irregular):
         else:
             status = self.solve_sudoku_1()
             if status is True:
+                print_sudoku(self.sudoku)
                 self.check_complete()
 
         # use recursion to create possible outcomes
